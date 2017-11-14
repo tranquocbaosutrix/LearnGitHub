@@ -13,6 +13,9 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.login("tranquocbaosutrix@gmail.com", userPassword: "khongcodatpass")
+    
   }
 
   override func didReceiveMemoryWarning() {
@@ -20,6 +23,9 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
-
+  private func login(userName: String, userPassword: String) {
+    print("Username: \(userName), Userpassword: \(userPassword)")
+  }
+  
 }
 

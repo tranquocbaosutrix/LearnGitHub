@@ -27,5 +27,9 @@ class ViewController: UIViewController {
     print("Username: \(userName), Userpassword: \(userPassword)")
   }
   
+  private func register(userName: String, userPassword: String) {
+    print("Registed user successfully")
+  }
+  
 }
 
